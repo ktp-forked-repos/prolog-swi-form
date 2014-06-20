@@ -6,8 +6,8 @@ Przykład obsługi formy z użyciem SWI-Prologu jako serwera HTTP.
 Uruchomienie serwera na porcie 5000
 ------------------------------------
 
-$ ./start
-
+`$ ./start
+`
 Ctrl-C  (przerwanie programu i zatrzymanie serwera)
 
 Uruchomienie serwera na dowolnym porcie
@@ -15,7 +15,7 @@ Uruchomienie serwera na dowolnym porcie
 
 Przykład uruchomienia serwera na porcie 2000:
 
-$ swipl
+`$ swipl
 Welcome to SWI-Prolog (Multi-threaded, 64 bits, Version 6.6.0)
 Copyright (c) 1990-2013 University of Amsterdam, VU Amsterdam
 SWI-Prolog comes with ABSOLUTELY NO WARRANTY. This is free software,
@@ -32,7 +32,7 @@ true.
 ?- server(2000).
 true.
 
-?- TU MOŻNA DALEJ PROWADZIĆ DIALOG Z PROLOGIEM
+?- TU MOŻNA DALEJ PROWADZIĆ DIALOG Z PROLOGIEM`
 
 ?- halt. % zakończenie pracy z PROLOGIEM i jednoczesne zatrzymanie serwera
 
